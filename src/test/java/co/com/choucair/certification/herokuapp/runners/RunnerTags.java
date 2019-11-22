@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = {"src/test/resources/features/herokuapp.feature"},
         tags = {"@Tag0"},
-        glue = {"co.com.choucair.certification.herokuapp.stepdefinitions"},
+        glue = {"co.com.choucair.certification.herokuapp.stepdefinitions","co.com.choucair.certification.herokuapp.utils"},
         snippets = SnippetType.CAMELCASE
 )
 public class RunnerTags {
